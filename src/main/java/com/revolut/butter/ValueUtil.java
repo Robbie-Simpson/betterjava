@@ -1,4 +1,4 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import java.math.BigDecimal;
 import java.net.MalformedURLException;
@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
 
-import static com.revolut.java.BetterOptional.optional;
+import static com.revolut.butter.BetterOptional.optional;
 import static java.util.Arrays.stream;
 import static java.util.Optional.empty;
 import static java.util.stream.Collectors.toMap;

@@ -1,4 +1,4 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import org.assertj.core.data.MapEntry;
 import org.junit.jupiter.api.Test;
@@ -11,11 +11,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-import static com.revolut.java.BetterOptional.*;
-import static com.revolut.java.ValueUtil.*;
-import static com.revolut.java.ValueUtilSpec.DeliveryStatus.POSTED;
-import static com.revolut.java.ValueUtilSpec.Repo.FIRST;
-import static com.revolut.java.ValueUtilSpec.Repo.SECOND;
+import static com.revolut.butter.BetterOptional.*;
+import static com.revolut.butter.ValueUtil.*;
+import static com.revolut.butter.ValueUtilSpec.DeliveryStatus.POSTED;
+import static com.revolut.butter.ValueUtilSpec.Repo.FIRST;
+import static com.revolut.butter.ValueUtilSpec.Repo.SECOND;
 import static java.util.Collections.*;
 import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;

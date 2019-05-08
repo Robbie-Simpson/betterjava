@@ -1,10 +1,10 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
 
-import static com.revolut.java.BetterOptional.*;
+import static com.revolut.butter.BetterOptional.*;
 import static org.assertj.core.api.Assertions.*;
 
 class BetterOptionalSpec {

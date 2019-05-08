@@ -1,4 +1,4 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import java.util.Objects;
 import java.util.Optional;

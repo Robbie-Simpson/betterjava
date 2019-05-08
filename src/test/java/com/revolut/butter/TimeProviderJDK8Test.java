@@ -1,4 +1,4 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import org.apache.commons.lang3.SystemUtils;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,7 +8,7 @@ import java.time.Clock;
 import java.util.TimeZone;
 import java.util.function.IntSupplier;
 
-import static com.revolut.java.TimeProvider.*;
+import static com.revolut.butter.TimeProvider.*;
 import static java.lang.Boolean.FALSE;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeFalse;

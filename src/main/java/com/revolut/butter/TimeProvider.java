@@ -1,4 +1,4 @@
-package com.revolut.java;
+package com.revolut.butter;
 
 import java.time.*;
 import java.util.TimeZone;
