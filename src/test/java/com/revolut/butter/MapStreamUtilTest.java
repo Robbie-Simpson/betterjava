@@ -67,7 +67,7 @@ class MapStreamUtilTest {
             "3", "false");
 
         // when
-        final Map<String, Boolean> newMap = map.entrySet().stream()
+        Map<String, Boolean> newMap = map.entrySet().stream()
             .collect(entriesToMap(Boolean::valueOf));
 
         // then
@@ -87,7 +87,7 @@ class MapStreamUtilTest {
             "3", "false");
 
         // when
-        final Map<Integer, Boolean> newMap = map.entrySet().stream()
+        Map<Integer, Boolean> newMap = map.entrySet().stream()
             .map(transformEntry(Integer::parseInt, Boolean::parseBoolean))
             .collect(entriesToMap());
 
