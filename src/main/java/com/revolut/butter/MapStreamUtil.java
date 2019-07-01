@@ -15,7 +15,7 @@ public interface MapStreamUtil {
         return toMap(Entry::getKey, Entry::getValue);
     }
 
-    static <K, V, V2> Collector<Entry<K, V>, ?, Map<K, V2>> entriesToMap(Function<V, V2> valueMapper) {
+    static <K, V1, V2> Collector<Entry<K, V1>, ?, Map<K, V2>> entriesToMap(Function<V1, V2> valueMapper) {
         return toMap(Entry::getKey, entry -> valueMapper.apply(entry.getValue()));
     }
 
